@@ -52,7 +52,7 @@ body {
  .OuterDivBothPics{
 
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
 
     .innerPicDiv{
         text-align:center;
@@ -60,11 +60,16 @@ body {
         font-weight: 350;
         font-style:normal
 
-    }
+
 
     }
+ }
+
     
     
 
 
-
+ 
+ 
+ 
+   
