@@ -17,6 +17,7 @@ body {
     }
  body{
     h2{
+        padding-top: 10px;
         font-family: "Fira-sans", sans-serif;
         font-weight: 200;
         font-style:normal
@@ -27,17 +28,7 @@ body {
         text-align:center;
       }
  }
- body{
-    h3{
-        font-family: "Fira-sans", sans-serif;
-        font-weight: 200;
-        font-style:normal
-    }
-    h3 {
-        text-align:center;
-       }
- }
-   
+ 
  body{
     h4{
         font-family: "Fira-sans", sans-serif;
@@ -47,8 +38,7 @@ body {
 
     }
     
- 
-
+    
  .OuterDivBothPics{
 
     display: flex;
@@ -63,10 +53,54 @@ body {
 
 
     }
- }
+   
+}
 
+.OuterDivBothPics{
+
+    display: flex;
+    flex-direction:row;
+
+    .otherPicDiv{
+        text-align:center;
+        font-family: "Fira-sans", sans-serif;
+        font-weight: 350;
+        font-style:normal
+
+
+
+    }
+}
+
+.OuterDivBothPics{
+
+    display: flex;
+    flex-direction:row;
+
+    .secondpickdiv{
+        text-align:center;
+        font-family: "Fira-sans", sans-serif;
+        font-weight: 350;
+        font-style:normal
+
+
+
+    }
+}
+
+
+
+    a:link{
+        color: black;
+    }
     
-    
+    a:visited{
+        color: black;
+    }
+
+    a:hover{
+        color: black;
+    }
 
 
  
